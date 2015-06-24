@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>A model template</title>
+<link href="layout.css" rel="stylesheet" type="text/css" />
+<meta name="Keywords" content="mol2 file" />
+<meta name="author" content"Junjie Wang"/>
+<meta name="Description" content="A model template" />
+</head>
+
+<body>
+<div id="container">
+  <div id="header">Efpdb.org</div>
+  <div id="mainContent">
+ <!--Upload and submit function-->   
+    <p>Upload your file</p>
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+    Select file to upload:
+    <input type="file" name="fileToUpload" id="fileToUpload">
+    <input type="submit" value="submit" name="submit">
+    <p>Charges: (between -20 and 20):</p>
+    <input type="number" name="charge" min="-20" max="20" value = "charge">
+    </form>
+ <!--Hyperlink to the corrdinates changing site-->   
+    <p>If your file is not in xyz coordinates, <a href="http://www.webqc.org/molecularformatsconverter.php">click here</a> to convert their geometry to xyz format</p>
+    
+  </div>
+  <div id="footer">This is the footer</div>
+</div>
+</body>
+</html>

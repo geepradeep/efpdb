@@ -1,0 +1,5 @@
+Occurence		Molecule		Geometry		Fragment		
+1				H2O				water.xyz		water.efp		
+1				C2H2			acetylene.xyz	acetylene.efp	
+2				H2O				water_2.xyz		water_2.efp		
+1				C6H6			benzene.xyz		benzene.efp		

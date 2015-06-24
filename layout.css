@@ -1,0 +1,22 @@
+body { font-family:Verdana; font-size:14px; margin:0;}
+
+#container {
+	margin:0 auto; 
+	width:900px;
+}
+#header { 
+	height:80px; 
+	font-size: 40px;
+	background:silver; 
+	margin-bottom:5px;
+	text-align: center;
+}
+#mainContent { 
+	height:500px; 
+	background:white; 
+	margin-bottom:5px;
+}
+#footer { 
+	height:80px; 
+	background:silver;
+}

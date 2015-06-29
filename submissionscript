@@ -1,5 +1,11 @@
 #!/bin/bash
 
+set INPFILE=$argv[1]
+
+touch /var/www/html/gamess/$INPFILE.script
+
+echo '#~/bin/bash' > /var/www/html/gamess/$INPFILE.script
+
 #PBS -V
 
 #PBS -q batch
